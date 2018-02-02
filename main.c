@@ -47,7 +47,7 @@ int main(int argc, char **argv) {
         }
     }
     else {
-        fprintf(stderr, "Wrong number of arguments supplied.\n");
+        fprintf(stderr, "Usage: %s WIDTH HEIGHT\n", argv[0]);
     }
     return argc == 3 ? EXIT_SUCCESS : EXIT_FAILURE;
 }
